@@ -1,5 +1,5 @@
 window.onload = function() {
-    
+    $(this).scrollTop(0);
     $(document).ready(function() {
     
     setTimeout(function(){

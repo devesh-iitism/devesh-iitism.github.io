@@ -1,4 +1,14 @@
 window.onload = function() {
+    
+    $(document).ready(function() {
+    
+    setTimeout(function(){
+        $('body').addClass('loaded');
+        $("#mainNavbar").addClass("fixed-top");
+    }, 3000);
+    
+});
+    $('[data-toggle="tooltip"]').tooltip();
 	$(function () {
         $(document).scroll(function () {
         	var $nav = $("#mainNavbar")
@@ -36,3 +46,4 @@ window.onload = function() {
         });
     }).scroll();
 }
+
